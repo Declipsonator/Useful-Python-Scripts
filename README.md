@@ -1,6 +1,6 @@
 # Useful Python Scripts
 
-This is a collection of random Python scripts that I've written to make my life easier. The only script currently in this repository is "debloat_desktop.py". 
+This is a collection of random Python scripts that I've written to make my life easier. 
 <br/>
 ### debloat_desktop
 
@@ -10,6 +10,17 @@ To use this script, simply run the following command:
 
 ```python
 python debloat_desktop.py
+```
+<br/>
+
+### send_request
+
+This script opens a gui for sending requests. It's not the best (and put probably doesn't work) but its decent for testing apis :+1:.
+
+To use this script, simply run the following command:
+
+```python
+python send_request.py
 ```
 
 ## Support
