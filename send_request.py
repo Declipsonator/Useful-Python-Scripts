@@ -1,10 +1,3 @@
-"""
-    This is a simple GUI app that allows you to send HTTP requests.
-    It's useful for testing APIs.
-    We can remove it, but I didn't know of any good apps for this type of thing,
-    so I just had chatgpt do it. (:
-"""
-
 import tkinter as tk
 import requests
 
