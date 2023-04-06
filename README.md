@@ -4,7 +4,7 @@ This is a collection of random Python scripts that I've written to make my life 
 <br/>
 ### debloat_desktop
 
-This script removes unnecessary files and folders from your desktop. It moves all files and folders that have not been accessed in the last 30 days to a new folder called "Desktop Archive" on your desktop. This helps keep your desktop clean and organized.
+This script removes unnecessary files and folders from your desktop and moves all the others to their respected folders. This helps a lot with cleaning out stuff. Be sure to finetune the program before running though since you don't want to lose work.
 
 To use this script, simply run the following command:
 
