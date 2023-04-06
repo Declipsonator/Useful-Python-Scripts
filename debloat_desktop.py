@@ -27,6 +27,8 @@ moveToShortcuts = {"lnk", "Lnk"}
 #Files to Move to an Apps Folder
 moveToApps = {"exe"}
 
+filesToSkip = {"scripts", "media", "folders", "shortcuts", "app", "debloat_desktop.py"}
+
 if not os.path.exists("scripts"):
     os.mkdir("scripts")
 if not os.path.exists("media"):
@@ -37,10 +39,9 @@ if not os.path.exists("shortcuts"):
     os.mkdir("shortcuts")
 if not os.path.exists("apps"):
     os.mkdir("apps")
-
-print(files)
+    
 for file in files:
-    if file == "debloat_desktop.py" or file == "scripts" or file == "media" or file == "folders" or file == "shortcuts":
+    if file in filesToSkip:
         continue
 
     try:
